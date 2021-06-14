@@ -35,3 +35,23 @@
         }
         
     }
+
+    const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+    const sharky = ["Sharky", "shark", 20, "Left Coast"]
+    const plantee = ["Plantee", "plant",  5000 , "Mordor"]
+    const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
+    const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
+
+
+    //wolfy.splice(3,3)
+    wolfy.splice(3,3,'Gotham city');
+    dart.splice(4,4,'heello');
+    wolfy.splice(0,1);
+
+console.log(dart);
+console.log(wolfy)
+
+  const turtles=["donatello",'Leonardo','Raphael','Michel'];
+    for (const hello of turtles) {
+          console.log(hello.toUpperCase(turtles));
+    }
