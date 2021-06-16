@@ -51,7 +51,21 @@
 console.log(dart);
 console.log(wolfy)
 
-  const turtles=["donatello",'Leonardo','Raphael','Michel'];
+  const turtles=[
+      "donatello",'Leonardo','Raphael','Michel'];
     for (const hello of turtles) {
           console.log(hello.toUpperCase(turtles));
     }
+
+    //Factorization num
+
+    const Factorization=(num)=>{
+        var result=1;
+        for (let i = 1; i <=num; i++) {
+            result*=i;
+            
+        }
+        return result;
+    }
+
+    console.log(Factorization(3));
