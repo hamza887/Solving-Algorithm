@@ -69,3 +69,10 @@ console.log(wolfy)
     }
 
     console.log(Factorization(3));
+
+  //converting Minutes into Numbers
+
+  function convert(minutes) {
+	 return minutes*60
+}
+  console.log(convert(10));
