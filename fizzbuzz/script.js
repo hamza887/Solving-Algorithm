@@ -51,42 +51,65 @@
 console.log(dart);
 console.log(wolfy)
 
-  const turtles=["donatello",'Leonardo','Raphael','Michel'];
+  const turtles=[
+      "donatello",'Leonardo','Raphael','Michel'];
     for (const hello of turtles) {
           console.log(hello.toUpperCase(turtles));
     }
 
-    for (let i = 0; i <=20; i++) {
-        if(i%3===0){
-            console.log('human stop taking pics of me');
-        }else{
-            console.log('Love me,pet me !HSSSSSSS')
-        }
+// <<<<<<< strings
+//     for (let i = 0; i <=20; i++) {
+//         if(i%3===0){
+//             console.log('human stop taking pics of me');
+//         }else{
+//             console.log('Love me,pet me !HSSSSSSS')
+//         }
         
-    }
+//     }
 
-//function returns true if and only if x is equal to 7.
+// //function returns true if and only if x is equal to 7.
 
-function isSeven(x) {
-	return x=="7"?true:false;
-}
+// function isSeven(x) {
+// 	return x=="7"?true:false;
+// }
 
-console.log(isSeven(9)); 
+// console.log(isSeven(9)); 
 
-console.log(isSeven(7))
-
-
-//At the annual family gathering, the family likes to find the oldest living family member’s age and the youngest family member’s age and calculate the difference between them.
-
-//You will be given an array of all the family members' ages, in any order. The ages will be given in whole numbers only, so a baby of 5 months, will have an ascribed ‘age’ of 0. Return a new array with [youngest age, oldest age, difference between the youngest and oldest age].
+// console.log(isSeven(7))
 
 
+// //At the annual family gathering, the family likes to find the oldest living family member’s age and the youngest family member’s age and calculate the difference between them.
 
-function ss(hello){
-    const Maximumnum = Math.max(...hello);
-     const Minumumnum= Math.min(...hello);
-  return [Minumumnum, Maximumnum, (Maximumnum-Minumumnum)];
+// //You will be given an array of all the family members' ages, in any order. The ages will be given in whole numbers only, so a baby of 5 months, will have an ascribed ‘age’ of 0. Return a new array with [youngest age, oldest age, difference between the youngest and oldest age].
 
-}
 
-console.log(ss([82, 15, 6, 38, 35]))
+
+// function ss(hello){
+//     const Maximumnum = Math.max(...hello);
+//      const Minumumnum= Math.min(...hello);
+//   return [Minumumnum, Maximumnum, (Maximumnum-Minumumnum)];
+
+// }
+
+// console.log(ss([82, 15, 6, 38, 35]))
+// =======
+//     //Factorization num
+
+//     const Factorization=(num)=>{
+//         var result=1;
+//         for (let i = 1; i <=num; i++) {
+//             result*=i;
+            
+//         }
+//         return result;
+//     }
+
+//     console.log(Factorization(3));
+
+//   //converting Minutes into Numbers
+
+//   function convert(minutes) {
+// 	 return minutes*60
+// }
+//   console.log(convert(10));
+// >>>>>>> main
