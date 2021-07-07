@@ -157,3 +157,10 @@ function isEven(n) {
 	return (n%2===0)
 }
 
+// nth of even number 
+
+function nthEven(n) {
+	return n*2-2;
+}
+
+nthEven(2)
